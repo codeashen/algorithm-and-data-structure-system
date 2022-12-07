@@ -1,18 +1,14 @@
 package com.codeashen.algorithm.linearsearch;
 
-import com.codeashen.algorithm.common.ArrayGenerator;
+import com.codeashen.algorithm.common.annotation.Algorithm;
+import com.codeashen.algorithm.common.util.ArrayGenerator;
 import com.google.common.base.Stopwatch;
 
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
-/**
- * 线性查找使用泛型
- */
+@Algorithm(value = "线性查找法", pref = "泛型")
 public class LinearSearch2 {
-
-    private LinearSearch2() {
-    }
 
     public static <E> int search(E[] data, E target) {
         for (int i = 0; i < data.length; i++) {
