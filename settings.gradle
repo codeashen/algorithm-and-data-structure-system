@@ -1,0 +1,5 @@
+rootProject.name = 'algorithm-and-data-structure-system'
+include 'a01-linear-search'
+include 'a02-sorting-basic'
+include 'common'
+
